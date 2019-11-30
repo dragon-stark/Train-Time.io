@@ -1,0 +1,23 @@
+.jumbotron {
+	background-color: rgb(245, 151, 84);
+	text-align: center;
+	color: white;
+}
+
+.card-header {
+	background-color: blue;
+	color: white;
+}
+
+.card-body .form-group {
+	border-style: solid 5px;
+	border: blue;
+	box-shadow: blue;
+}
+.btn {
+	background-color: rgb(245, 151, 84);
+	border-color: gold;
+}
+.container {
+	margin-left: auto;
+}
