@@ -30,10 +30,10 @@ $(document).ready(function ()
   }
   $(document).ready(function ()
   {
-    $("#current-time").text(moment().format("MMM DD hh:mm A"));
+    $("#current-time").text(moment().format(" HH:mm "));
     setInterval(function ()
     {
-      $("#current-time").text(moment().format("MMM DD hh:mm A"));
+      $("#current-time").text(moment().format(" HH:mm "));
       displayTrainSchedule();
     }, 60000);
     database.ref().on("value", function (data)
@@ -95,7 +95,7 @@ $(document).ready(function ()
         newTableRow.append($("<td>").html(name));
         newTableRow.append($("<td>").html(destination));
         newTableRow.append($("<td>").html(frequency));
-        newTableRow.append($("<td>").html(nextArrival.format("MMM DD hh:mm A")));
+        newTableRow.append($("<td>").html(nextArrival.format("HH:mm A")));
         newTableRow.append($("<td>").html(minutesAway));
         var newDiv = $("<div>")
         newDiv.attr(
