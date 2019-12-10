@@ -2,6 +2,6 @@
 
 **Firebase powered train schedule**
 
-### Project Page
+Project Page:
 
 [Train Schedule](https://dragon-stark.github.io/Train-Time.io/)
