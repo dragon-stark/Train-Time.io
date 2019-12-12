@@ -1,6 +1,13 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Old Standard TT', serif; */
+
 body {
+	font-size: 1.4em;
+	font-family: "Old Standard TT", serif;
 }
 .jumbotron {
+	font-family: "Playfair Display", serif;
 	background-image: url(TrainInterior.jpg);
 	text-align: center;
 	color: white;
@@ -8,7 +15,6 @@ body {
 
 .card-header {
 	background-color: blue;
-	color: white;
 }
 
 .card-body .form-group {
@@ -16,6 +22,7 @@ body {
 	border: blue;
 	box-shadow: blue;
 	background-color: rgb(204, 197, 197);
+	color: white;
 }
 .btn {
 	background-color: rgb(245, 151, 84);
@@ -23,4 +30,6 @@ body {
 }
 .container {
 	margin-left: auto;
+}
+.panel .panel-body .text .form {
 }
