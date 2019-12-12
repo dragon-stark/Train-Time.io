@@ -25,8 +25,9 @@ body {
 	color: white;
 }
 .btn {
-	background-color: rgb(245, 151, 84);
-	border-color: gold;
+	color: white;
+	background-color: rgb(4, 20, 143);
+	border-color: rgb(243, 247, 243);
 }
 .container {
 	margin-left: auto;
