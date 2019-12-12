@@ -4,7 +4,6 @@
 	<head>
 		<meta charset="UTF-8" />
 
-		<title>All Aboard!</title>
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -20,6 +19,7 @@
 
 		<!-- Moment JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+		<title>All Aboard!</title>
 	</head>
 
 	<body>
@@ -49,7 +49,7 @@
 						<tbody id="schedule"></tbody>
 					</table>
 					<div class="text-center">
-
+<button class="btn btn-info" id="add-train-btn" type="submit">Add Train</button>
 					</div>
 				</div>
 			</div>
@@ -72,8 +72,8 @@
 						</div>
 
 						<div class="form-group">
-							<label for="time">First Train Time (use HH:mm format) </label>
-							<input class="form-control" id="time"  />
+							<label for="time">First Train Time (military time HH:mm) </label>
+							<input class="form-control" id="time" type="text" />
 						</div>
 
 						<div class="form-group">
