@@ -30,10 +30,10 @@ $(document).ready(function ()
   }
   $(document).ready(function ()
   {
-    $("#current-time").text(moment().format(" HH:mm "));
+    $("#current-time").text(moment().format("MMM Do YYYY HH:mm "));
     setInterval(function ()
     {
-      $("#current-time").text(moment().format(" HH:mm "));
+      $("#current-time").text(moment().format("MMM Do YYYY HH:mm "));
       displayTrainSchedule();
     }, 60000);
     database.ref().on("value", function (data)

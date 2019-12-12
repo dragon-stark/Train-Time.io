@@ -1,5 +1,7 @@
+body {
+}
 .jumbotron {
-	background-color: rgb(245, 151, 84);
+	background-image: url(TrainInterior.jpg);
 	text-align: center;
 	color: white;
 }
@@ -13,6 +15,7 @@
 	border-style: solid 5px;
 	border: blue;
 	box-shadow: blue;
+	background-color: rgb(204, 197, 197);
 }
 .btn {
 	background-color: rgb(245, 151, 84);
