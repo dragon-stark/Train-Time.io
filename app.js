@@ -1,5 +1,5 @@
-// "use strict";
-// Initialize Firebase
+
+
 var config = {
   apiKey: "AIzaSyDuvnyCEyOiT42PqMrIe4GYx5Dg-FHv0Tw",
   authDomain: "train-time-75eb6.firebaseapp.com",
@@ -11,7 +11,7 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
-//Object to store entire firebase database as JSON object
+
 var firebaseDataObject = null;
 //variable to store key of object to update.
 var updateKey;
