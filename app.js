@@ -30,10 +30,10 @@ function Train (name, destination, firstTrainTime, frequency)
 }
 $(document).ready(function ()
 {
-  $("#current-time").text(moment().format("MMM DD hh:mm A"));
+  $("#current-time").text(moment().format("MMM DD HH:mm A"));
   setInterval(function ()
   {
-    $("#current-time").text(moment().format("MMM DD hh:mm A"));
+    $("#current-time").text(moment().format("MMM DD HH:mm A"));
     displayTrainSchedule();
   }, 60000);
   database.ref().on("value", function (data)
